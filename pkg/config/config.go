@@ -14,12 +14,12 @@ import (
 	"os"
 
 	config "github.com/micro/go-micro"
-        "github.com/micro/go-micro/config/source/env"
-        "github.com/micro/go-micro/config/source/file"
-        "github.com/micro/go-micro/config/source/flag"
-        "github.com/micro/go-micro/config/source/memory"
-        "github.com/redhat-cop/cert-operator/pkg/certs"
-        "github.com/sirupsen/logrus"
+	"github.com/micro/go-micro/config/source/env"
+	"github.com/micro/go-micro/config/source/file"
+	"github.com/micro/go-micro/config/source/flag"
+	"github.com/micro/go-micro/config/source/memory"
+	"github.com/redhat-cop/cert-operator/pkg/certs"
+	"github.com/sirupsen/logrus"
 )
 
 type Config struct {
