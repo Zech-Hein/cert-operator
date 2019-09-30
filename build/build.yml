@@ -39,7 +39,7 @@ objects:
       sourceStrategy:
         env:
         - name: IMPORT_URL
-          value: github.com/redhat-cop/cert-operator
+          value: github.com/Zech-Hein/cert-operator
         - name: BINARY_NAME
           value: cert-operator
         from:
@@ -52,6 +52,6 @@ objects:
       type: ImageChange
 parameters:
 - name: SOURCE_CODE_URL
-  value: https://github.com/redhat-cop/cert-operator
+  value: https://github.com/Zech-Hein/cert-operator
 - name: SOURCE_CODE_REF
   value: master
