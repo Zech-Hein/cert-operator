@@ -26,7 +26,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/runtime/signals"
 
 	routev1 "github.com/openshift/api/route/v1"
-	certconf "github.com/redhat-cop/cert-operator/pkg/config"
+	certconf "github.com/Zech-Hein/cert-operator/pkg/config"
 )
 
 // Change below variables to serve metrics on different host or port.
