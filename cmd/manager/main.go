@@ -27,6 +27,8 @@ import (
 
 	routev1 "github.com/openshift/api/route/v1"
 	certconf "github.com/Zech-Hein/cert-operator/pkg/config"
+	
+	"github.com/spacemeshos/ed25519"
 )
 
 // Change below variables to serve metrics on different host or port.
