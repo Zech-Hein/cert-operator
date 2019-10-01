@@ -5,9 +5,9 @@ import (
 
 	routev1 "github.com/openshift/api/route/v1"
 	v1 "github.com/openshift/api/route/v1"
-	"github.com/redhat-cop/cert-operator/pkg/certs"
-	certconf "github.com/redhat-cop/cert-operator/pkg/config"
-	"github.com/redhat-cop/cert-operator/pkg/helpers"
+	"github.com/Zech-Hein/cert-operator/pkg/certs"
+	certconf "github.com/Zech-Hein/cert-operator/pkg/config"
+	"github.com/Zech-Hein/cert-operator/pkg/helpers"
 
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
