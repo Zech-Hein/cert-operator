@@ -10,8 +10,8 @@ import (
 	// Import all Kubernetes client auth plugins (e.g. Azure, GCP, OIDC, etc.)
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 
-	"github.com/redhat-cop/cert-operator/pkg/apis"
-	"github.com/redhat-cop/cert-operator/pkg/controller"
+	"github.com/Zech-Hein/cert-operator/pkg/apis"
+	"github.com/Zech-Hein/cert-operator/pkg/controller"
 
 	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
 	"github.com/operator-framework/operator-sdk/pkg/leader"
