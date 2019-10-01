@@ -3,7 +3,7 @@ package controller
 import (
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 
-	certconf "github.com/redhat-cop/cert-operator/pkg/config"
+	certconf "github.com/Zech-Hein/cert-operator/pkg/config"
 )
 
 // AddToManagerFuncs is a list of functions to add all Controllers to the Manager
