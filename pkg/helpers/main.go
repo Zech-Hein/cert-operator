@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/redhat-cop/cert-operator/pkg/certs"
+	"github.com/Zech-Hein/cert-operator/pkg/certs"
 	"k8s.io/apimachinery/pkg/runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 )
