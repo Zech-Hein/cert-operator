@@ -4,9 +4,9 @@ objects:
 - apiVersion: image.openshift.io/v1
   kind: ImageStream
   metadata:
-    name: go-toolset-1.10-rhel7
+    name: go-toolset-rhel7
   spec:
-    dockerImageRepository: registry.access.redhat.com/devtools/go-toolset-1.10-rhel7
+    dockerImageRepository: registry.access.redhat.com/devtools/go-toolset-rhel7
 - apiVersion: image.openshift.io/v1
   kind: ImageStream
   metadata:
@@ -44,7 +44,7 @@ objects:
           value: cert-operator
         from:
           kind: ImageStreamTag
-          name: go-toolset-1.10-rhel7:latest
+          name: go-toolset-rhel7:latest
           type: Source
     triggers:
     - type: ConfigChange
